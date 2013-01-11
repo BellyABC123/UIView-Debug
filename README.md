@@ -4,9 +4,9 @@ UIView category that swizzles initWithFrame and initWithCoder to add bounding bo
 
 ## In Action
 
-<a href="https://raw.github.com/xrolfex/UIView-Debug/master/_image0.png" alt="Screenshot of uiview debug view with bounding boxes.">
+<img src="https://raw.github.com/xrolfex/UIView-Debug/master/_image0.png" alt="Screenshot of uiview debug view with bounding boxes." style="display:block; margin: 10px auto 30px auto;" class="center">
 <br />
-<a href="https://raw.github.com/xrolfex/UIView-Debug/master/_image1.png" alt="Screenshot of uiview debug view with alert details about a view triple clicked on.">
+<img src="https://raw.github.com/xrolfex/UIView-Debug/master/_image1.png" alt="Screenshot of uiview debug view with alert details about a view triple clicked on." style="display:block; margin: 10px auto 30px auto;" class="center">
 
 ## Implementation Details
 
