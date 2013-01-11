@@ -10,16 +10,16 @@
 		CB606AF6169601DC00C57D13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB606AF5169601DC00C57D13 /* UIKit.framework */; };
 		CB606AF8169601DC00C57D13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB606AF7169601DC00C57D13 /* Foundation.framework */; };
 		CB606AFA169601DC00C57D13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB606AF9169601DC00C57D13 /* CoreGraphics.framework */; };
-		CB606B00169601DC00C57D13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB606AFE169601DC00C57D13 /* InfoPlist.strings */; };
-		CB606B02169601DC00C57D13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB606B01169601DC00C57D13 /* main.m */; };
-		CB606B06169601DC00C57D13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB606B05169601DC00C57D13 /* AppDelegate.m */; };
-		CB606B08169601DC00C57D13 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CB606B07169601DC00C57D13 /* Default.png */; };
-		CB606B0A169601DC00C57D13 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB606B09169601DC00C57D13 /* Default@2x.png */; };
-		CB606B0C169601DC00C57D13 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB606B0B169601DC00C57D13 /* Default-568h@2x.png */; };
-		CB606B0F169601DC00C57D13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB606B0E169601DC00C57D13 /* ViewController.m */; };
-		CB606B12169601DC00C57D13 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB606B10169601DC00C57D13 /* ViewController.xib */; };
 		CB606B221696124300C57D13 /* UIView+Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = CB606B211696124200C57D13 /* UIView+Debug.m */; };
 		CB606B241696147300C57D13 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB606B231696147300C57D13 /* QuartzCore.framework */; };
+		CB91A4DE16A04BA800358720 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB91A4D616A04BA800358720 /* AppDelegate.m */; };
+		CB91A4E116A04BA800358720 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB91A4DD16A04BA800358720 /* ViewController.m */; };
+		CB91A4E416A04BBC00358720 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB91A4E216A04BBC00358720 /* ViewController.xib */; };
+		CB91A4E616A04BD200358720 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB91A4E516A04BD200358720 /* main.m */; };
+		CB91A4E916A04BF800358720 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB91A4E716A04BF800358720 /* InfoPlist.strings */; };
+		CB91A4ED16A04C1300358720 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB91A4EA16A04C1300358720 /* Default-568h@2x.png */; };
+		CB91A4EE16A04C1300358720 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CB91A4EB16A04C1300358720 /* Default.png */; };
+		CB91A4EF16A04C1300358720 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB91A4EC16A04C1300358720 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,21 +27,21 @@
 		CB606AF5169601DC00C57D13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CB606AF7169601DC00C57D13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CB606AF9169601DC00C57D13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CB606AFD169601DC00C57D13 /* UIView_Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIView_Debug-Info.plist"; sourceTree = "<group>"; };
-		CB606AFF169601DC00C57D13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CB606B01169601DC00C57D13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CB606B03169601DC00C57D13 /* UIView_Debug-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView_Debug-Prefix.pch"; sourceTree = "<group>"; };
-		CB606B04169601DC00C57D13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CB606B05169601DC00C57D13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CB606B07169601DC00C57D13 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		CB606B09169601DC00C57D13 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		CB606B0B169601DC00C57D13 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		CB606B0D169601DC00C57D13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CB606B0E169601DC00C57D13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CB606B11169601DC00C57D13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		CB606B201696124200C57D13 /* UIView+Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Debug.h"; path = "Constraints_Hybrid/UIView+Debug.h"; sourceTree = "<group>"; };
-		CB606B211696124200C57D13 /* UIView+Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Debug.m"; path = "Constraints_Hybrid/UIView+Debug.m"; sourceTree = "<group>"; };
+		CB606AFD169601DC00C57D13 /* UIView_Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "UIView_Debug-Info.plist"; path = "UIView_Debug/UIView_Debug-Info.plist"; sourceTree = "<group>"; };
+		CB606B03169601DC00C57D13 /* UIView_Debug-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView_Debug-Prefix.pch"; path = "UIView_Debug/UIView_Debug-Prefix.pch"; sourceTree = "<group>"; };
+		CB606B201696124200C57D13 /* UIView+Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Debug.h"; path = "UIView_Debug/UIView+Debug.h"; sourceTree = "<group>"; };
+		CB606B211696124200C57D13 /* UIView+Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Debug.m"; path = "UIView_Debug/UIView+Debug.m"; sourceTree = "<group>"; };
 		CB606B231696147300C57D13 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CB91A4D516A04BA800358720 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = UIView_Debug/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		CB91A4D616A04BA800358720 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = UIView_Debug/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		CB91A4DC16A04BA800358720 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = UIView_Debug/ViewController.h; sourceTree = SOURCE_ROOT; };
+		CB91A4DD16A04BA800358720 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = UIView_Debug/ViewController.m; sourceTree = SOURCE_ROOT; };
+		CB91A4E316A04BBC00358720 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = UIView_Debug/en.lproj/ViewController.xib; sourceTree = SOURCE_ROOT; };
+		CB91A4E516A04BD200358720 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = UIView_Debug/main.m; sourceTree = SOURCE_ROOT; };
+		CB91A4E816A04BF800358720 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = UIView_Debug/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		CB91A4EA16A04C1300358720 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "UIView_Debug/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		CB91A4EB16A04C1300358720 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = UIView_Debug/Default.png; sourceTree = SOURCE_ROOT; };
+		CB91A4EC16A04C1300358720 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "UIView_Debug/Default@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,11 +91,11 @@
 		CB606AFB169601DC00C57D13 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				CB606B04169601DC00C57D13 /* AppDelegate.h */,
-				CB606B05169601DC00C57D13 /* AppDelegate.m */,
-				CB606B0D169601DC00C57D13 /* ViewController.h */,
-				CB606B0E169601DC00C57D13 /* ViewController.m */,
-				CB606B10169601DC00C57D13 /* ViewController.xib */,
+				CB91A4E216A04BBC00358720 /* ViewController.xib */,
+				CB91A4D516A04BA800358720 /* AppDelegate.h */,
+				CB91A4D616A04BA800358720 /* AppDelegate.m */,
+				CB91A4DC16A04BA800358720 /* ViewController.h */,
+				CB91A4DD16A04BA800358720 /* ViewController.m */,
 				CB606AFC169601DC00C57D13 /* Supporting Files */,
 			);
 			name = Example;
@@ -105,13 +105,13 @@
 		CB606AFC169601DC00C57D13 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CB91A4EA16A04C1300358720 /* Default-568h@2x.png */,
+				CB91A4EB16A04C1300358720 /* Default.png */,
+				CB91A4EC16A04C1300358720 /* Default@2x.png */,
+				CB91A4E716A04BF800358720 /* InfoPlist.strings */,
+				CB91A4E516A04BD200358720 /* main.m */,
 				CB606AFD169601DC00C57D13 /* UIView_Debug-Info.plist */,
-				CB606AFE169601DC00C57D13 /* InfoPlist.strings */,
-				CB606B01169601DC00C57D13 /* main.m */,
 				CB606B03169601DC00C57D13 /* UIView_Debug-Prefix.pch */,
-				CB606B07169601DC00C57D13 /* Default.png */,
-				CB606B09169601DC00C57D13 /* Default@2x.png */,
-				CB606B0B169601DC00C57D13 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -176,11 +176,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB606B00169601DC00C57D13 /* InfoPlist.strings in Resources */,
-				CB606B08169601DC00C57D13 /* Default.png in Resources */,
-				CB606B0A169601DC00C57D13 /* Default@2x.png in Resources */,
-				CB606B0C169601DC00C57D13 /* Default-568h@2x.png in Resources */,
-				CB606B12169601DC00C57D13 /* ViewController.xib in Resources */,
+				CB91A4E416A04BBC00358720 /* ViewController.xib in Resources */,
+				CB91A4E916A04BF800358720 /* InfoPlist.strings in Resources */,
+				CB91A4ED16A04C1300358720 /* Default-568h@2x.png in Resources */,
+				CB91A4EE16A04C1300358720 /* Default.png in Resources */,
+				CB91A4EF16A04C1300358720 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,30 +191,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB606B02169601DC00C57D13 /* main.m in Sources */,
-				CB606B06169601DC00C57D13 /* AppDelegate.m in Sources */,
-				CB606B0F169601DC00C57D13 /* ViewController.m in Sources */,
 				CB606B221696124300C57D13 /* UIView+Debug.m in Sources */,
+				CB91A4DE16A04BA800358720 /* AppDelegate.m in Sources */,
+				CB91A4E116A04BA800358720 /* ViewController.m in Sources */,
+				CB91A4E616A04BD200358720 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CB606AFE169601DC00C57D13 /* InfoPlist.strings */ = {
+		CB91A4E216A04BBC00358720 /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CB606AFF169601DC00C57D13 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CB606B10169601DC00C57D13 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB606B11169601DC00C57D13 /* en */,
+				CB91A4E316A04BBC00358720 /* en */,
 			);
 			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		CB91A4E716A04BF800358720 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB91A4E816A04BF800358720 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -275,8 +275,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Constraints_Hybrid/UIView_Debug-Prefix.pch";
-				INFOPLIST_FILE = "Constraints_Hybrid/UIView_Debug-Info.plist";
+				GCC_PREFIX_HEADER = "UIView_Debug/UIView_Debug-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/UIView_Debug/UIView_Debug-Info.plist";
 				PRODUCT_NAME = UIView_Debug;
 				WRAPPER_EXTENSION = app;
 			};
@@ -286,8 +286,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Constraints_Hybrid/UIView_Debug-Prefix.pch";
-				INFOPLIST_FILE = "Constraints_Hybrid/UIView_Debug-Info.plist";
+				GCC_PREFIX_HEADER = "UIView_Debug/UIView_Debug-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/UIView_Debug/UIView_Debug-Info.plist";
 				PRODUCT_NAME = UIView_Debug;
 				WRAPPER_EXTENSION = app;
 			};
