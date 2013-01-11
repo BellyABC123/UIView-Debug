@@ -1,0 +1,22 @@
+//
+// Prefix header for all source files of the 'Constraints_Hybrid' target in the 'Constraints_Hybrid' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #import "UIView+Debug.h"
+
+    #define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+    #define VLog(view) NSLog((@"%s [Line %d] \r %@"), __PRETTY_FUNCTION__, __LINE__, [view performSelector:@selector(recursiveDescription)]);
+    #define ALCLog(view) NSLog((@"%s [Line %d] \r %@"), __PRETTY_FUNCTION__, __LINE__, [[view constraints] description]);
+    #define ALAMBLog(view) NSLog((@"%s [Line %d] \r %@"), __PRETTY_FUNCTION__, __LINE__, [view performSelector:@selector(_autolayoutTrace)]);
+    #define ALMasterLog(view) NSLog((@"%s [Line %d] \r\r %@ \r\r %@ \r %@"), __PRETTY_FUNCTION__, __LINE__, [view performSelector:@selector(recursiveDescription)], [[view constraints] description], [view performSelector:@selector(_autolayoutTrace)]);
+#endif
