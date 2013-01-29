@@ -45,6 +45,8 @@ There is nothing else required but to import UIView+Debug.h into your precompile
 #import "UIView+Debug.h"
 ```
 
+You can also triple click on any view and an alertview will appear with information about that view and all the superviews of that view.
+
 ## Sample Project
 
 The sample project included is for iOS6 and arc.
